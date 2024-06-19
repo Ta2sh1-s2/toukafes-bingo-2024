@@ -1,0 +1,79 @@
+body {
+    background-color: #EEEEEE;
+}
+
+/* logo */
+.logo {
+    text-align: center;
+}
+
+/* number */
+.number {
+    text-align: center;
+    font-size: 85px;
+}
+
+h1{
+    margin: 20px;
+}
+
+/* 抽選ボタン */
+.selector {
+    background-color: #fd7e00;
+    color: #ffffff;
+    border: none;
+    font-size: xx-large;
+    border-radius: 8px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+/* 数字テーブル */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+
+    color: #EEEEEE; /* フォントカラー */
+}
+
+table th, table td {
+    border: solid 3px black;
+    /*実線 1px 黒*/
+}
+
+td{
+    font-size: xx-large;
+    padding: 5px;
+    
+}
+
+.table {
+    margin-top: 50px;
+}
+
+/* ボタン類 */
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* 要素を縦に配置する */
+    
+}
+
+.container button {
+    background-color: #fd7e00;
+    color: #ffffff;
+    border: none;
+    font-size: large;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+.fixed-button {
+    position: fixed;
+    right: 120px;
+    bottom: 180px;
+}
